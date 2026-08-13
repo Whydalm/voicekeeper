@@ -1,0 +1,24 @@
+{
+  "name": "voicekeeper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot that maintains a persistent presence in a voice channel and tracks cumulative connection time.",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord-bot",
+    "voice-channel",
+    "time-tracking"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.7.13"
+  }
+}
